@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.b100e6da.chunk.css",
+    "main.js": "/PersonalWebsite/static/js/main.518ce507.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.518ce507.chunk.js.map",
+    "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.b34f821e.js",
+    "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.b34f821e.js.map",
+    "static/js/2.3fa583ba.chunk.js": "/PersonalWebsite/static/js/2.3fa583ba.chunk.js",
+    "static/js/2.3fa583ba.chunk.js.map": "/PersonalWebsite/static/js/2.3fa583ba.chunk.js.map",
+    "index.html": "/PersonalWebsite/index.html",
+    "precache-manifest.e16a0bd3ab473dc400378f5f148c1e4b.js": "/PersonalWebsite/precache-manifest.e16a0bd3ab473dc400378f5f148c1e4b.js",
+    "service-worker.js": "/PersonalWebsite/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/PersonalWebsite/static/css/main.b100e6da.chunk.css.map",
+    "static/media/praiseit.png": "/PersonalWebsite/static/media/praiseit.f37bc104.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b34f821e.js",
+    "static/js/2.3fa583ba.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.518ce507.chunk.js"
+  ]
+}
