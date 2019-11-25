@@ -14,7 +14,7 @@ export default class Main extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-                      <p>I am a computer engineering grad student from the University of Maryland. </p>
+                      <p>I am a computer engineering graduate from the University of Maryland. </p>
                     </div>
                   </div>
                 </div>
