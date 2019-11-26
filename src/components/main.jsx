@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import praise2 from '../images/praiseit.png'
 
 export default class Main extends Component {
   render() {
