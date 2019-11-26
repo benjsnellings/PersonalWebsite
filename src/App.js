@@ -14,7 +14,7 @@ class App extends Component {
                     <Sidebar/>
                     <div id="colorlib-main">
                         <Main/>
-                        {/*<Education/>*/}
+                        <Education/>
                         <Timeline/>
                         {/*<Introduction/>*/}
                     </div>

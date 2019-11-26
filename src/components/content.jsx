@@ -4,7 +4,7 @@ class PrimeAirTimeline extends Component {
   render() {
     return (
       <div>
-        <div className="timeline-icon color-4">
+        <div className="timeline-icon color-amazon">
           <i className="icon-plane"/>
         </div>
         <div className="timeline-label">
@@ -20,12 +20,12 @@ class AlexaTimeline extends Component {
   render() {
     return (
       <div>
-        <div className="timeline-icon color-3">
+        <div className="timeline-icon color-amazon">
           <i className="icon-speech-bubble"/>
         </div>
         <div className="timeline-label">
-          <h2>Software Engineer, Alexa - Amazon<span>2017-2019</span></h2>
-          <p>Worked on alexa and made large system design devops etc </p>
+          <h2>Software Engineer, Alexa Communications - Amazon<span>2017-2019</span></h2>
+          <p>Worked on alexa communications and made large system design devops etc </p>
         </div>
       </div>
     )
@@ -36,7 +36,7 @@ class CyberpointTimeline extends Component {
   render() {
     return (
       <div>
-        <div className="timeline-icon color-4">
+        <div className="timeline-icon color-cyberpoint">
           <i className="icon-lock3"/>
         </div>
         <div className="timeline-label">
@@ -52,7 +52,7 @@ class CollegeTimeline extends Component {
   render() {
     return (
       <div>
-        <div className="timeline-icon color-5">
+        <div className="timeline-icon color-maryland">
           <i className="icon-pen2"/>
         </div>
         <div className="timeline-label">
@@ -65,3 +65,94 @@ class CollegeTimeline extends Component {
 }
 
 export {PrimeAirTimeline, AlexaTimeline, CyberpointTimeline, CollegeTimeline};
+
+class MarylandEducation extends Component {
+  render() {
+    return (
+      <div className="panel panel-default">
+        <div className="panel-heading" role="tab" id="headingOne">
+          <h4 className="panel-title">
+            <a className="collapsedPanelOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+               aria-expanded="true" aria-controls="collapseOne">B.S. in Computer Engineering
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel"
+             aria-labelledby="headingOne">
+          <div className="panel-body">
+            <p>Got the degree. But damn it sucked.</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+class AmazonEducation extends Component {
+  render() {
+    return (
+      <div className="panel panel-default">
+        <div className="panel-heading" role="tab" id="headingTwo">
+          <h4 className="panel-title">
+            <a className="collapsedPanelTwo collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+               aria-expanded="false" aria-controls="collapseTwo">Amazon Training
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel"
+             aria-labelledby="headingTwo">
+          <div className="panel-body">
+            <p>Got a bunch of training. Its not all that useful but it looks good.</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+class EagleScoutTraining extends Component {
+  render() {
+    return (
+      <div className="panel panel-default">
+        <div className="panel-heading" role="tab" id="headingThree">
+          <h4 className="panel-title">
+            <a className="collapsedPanelThree collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"
+               aria-expanded="false" aria-controls="collapseThree">Eagle Scout
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" className="panel-collapse collapse" role="tabpanel"
+             aria-labelledby="headingThree">
+          <div className="panel-body">
+            <p>Got to play with fire and knives. whats not to love</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+class ReverseEngineeringTraining extends Component {
+  render() {
+    return (
+      <div className="panel panel-default">
+        <div className="panel-heading" role="tab" id="headingFour">
+          <h4 className="panel-title">
+            <a className="collapsedPanelFour collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"
+               aria-expanded="false" aria-controls="collapseFour">Reverse Engineering
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" className="panel-collapse collapse" role="tabpanel"
+             aria-labelledby="headingFour">
+          <div className="panel-body">
+            <p>Did some small hacking with IDA PRO =)</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+export {MarylandEducation, AmazonEducation, EagleScoutTraining, ReverseEngineeringTraining};
+
