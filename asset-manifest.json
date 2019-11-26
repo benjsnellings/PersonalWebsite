@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.b100e6da.chunk.css",
-    "main.js": "./static/js/main.837276b3.chunk.js",
-    "main.js.map": "./static/js/main.837276b3.chunk.js.map",
+    "main.js": "./static/js/main.ff621d56.chunk.js",
+    "main.js.map": "./static/js/main.ff621d56.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.14211a33.js",
     "runtime-main.js.map": "./static/js/runtime-main.14211a33.js.map",
     "static/js/2.3fa583ba.chunk.js": "./static/js/2.3fa583ba.chunk.js",
     "static/js/2.3fa583ba.chunk.js.map": "./static/js/2.3fa583ba.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d151026b61d8aba37b560611cbf6e18d.js": "./precache-manifest.d151026b61d8aba37b560611cbf6e18d.js",
+    "precache-manifest.fd3c0400757ce7dfab28efd8852fcbba.js": "./precache-manifest.fd3c0400757ce7dfab28efd8852fcbba.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "./static/css/main.b100e6da.chunk.css.map",
     "static/media/praiseit.png": "./static/media/praiseit.f37bc104.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.14211a33.js",
     "static/js/2.3fa583ba.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.837276b3.chunk.js"
+    "static/js/main.ff621d56.chunk.js"
   ]
 }
