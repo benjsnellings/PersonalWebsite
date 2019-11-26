@@ -11,13 +11,25 @@
 *	Edit this section
 *
 * ======================================================= */
+:root {
+  --main-bg-color: #262626;
+  --main-fg-color: #373737;
+  --main-fg-2-color: #535353;
+  --main-tx-color: #34AF5D;
+
+  --amazon-orange-color: #ff9900;
+  --maryland-red-color: #E03a3e;
+  --cyberpoint-orange-color: #ff6418;
+  --eagle-scout-blue-color: #003F87;
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  background: #262626;
-  color: #34AF5D; }
+  background: var(--main-bg-color);
+  color: var(--main-tx-color); }
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
@@ -36,7 +48,7 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #34AF5D;
+  color: var(--main-tx-color);
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -81,7 +93,7 @@ figure {
   position: fixed;
   overflow: scroll;
   z-index: 1001;
-  background: #262626;
+  background: var(--main-bg-color);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -109,7 +121,7 @@ figure {
   #colorlib-aside .number {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;}  
+    font-size: 12px;}
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
@@ -225,7 +237,7 @@ figure {
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;
-  background: #262626;
+  background: var(--main-bg-color);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -355,7 +367,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #262626;
+    background: var(--main-bg-color);
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -482,6 +494,11 @@ body.offcanvas {
   box-shadow: none !important;
   border: none; }
 
+.panel-group .panel {
+  /*background-color: #535353;*/
+  /*background-color: var(--main-fg-2-color);*/
+}
+
 .panel-heading a:after {
   font-family: "icomoon";
   content: "\e115";
@@ -497,14 +514,34 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #262626;
+  background: var(--main-fg-color);
   border: 1px solid #e6e6e6 !important;
-  color: #333333; }
+  color: var(--main-tx-color); }
+
+.panel-heading a.collapsedPanelOne {
+  background: var(--main-fg-color);
+  border: 1px solid var(--maryland-red-color) !important;
+  color: var(--main-tx-color); }
+
+.panel-heading a.collapsedPanelTwo {
+  background: var(--main-fg-color);
+  border: 1px solid var(--amazon-orange-color) !important;
+  color: var(--main-tx-color); }
+
+.panel-heading a.collapsedPanelThree {
+  background: var(--main-fg-color);
+  border: 1px solid var(--eagle-scout-blue-color) !important;
+  color: var(--main-tx-color); }
+
+.panel-heading a.collapsedPanelFour {
+  background: var(--main-fg-color);
+  border: 1px solid saddlebrown !important;
+  color: var(--main-tx-color); }
 
 .panel-body {
+  background-color: var(--main-fg-2-color);
   padding: 1.5em;
-  margin-top: 5px;
-  border: 1px solid #e6e6e6 !important; }
+  margin-top: 5px; }
 
 .timeline-centered {
   position: relative;
@@ -561,7 +598,7 @@ body.offcanvas {
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
-    color: #262626; }
+    color: var(--main-bg-color); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: #ec5453; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
@@ -570,7 +607,13 @@ body.offcanvas {
     background: #a84cb8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
-  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-maryland {
+    background: var(--maryland-red-color); }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-amazon {
+    background: var(--amazon-orange-color); }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-cyberpoint {
+    background: var(--cyberpoint-orange-color); }
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
     background: #fff;
     width: 20px;
     height: 20px;
@@ -578,7 +621,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #373737;
+  background: var(--main-fg-color);
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -593,7 +636,7 @@ body.offcanvas {
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent #373737 transparent transparent;
+  border-color: transparent var(--main-fg-color) transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
@@ -620,7 +663,7 @@ body.offcanvas {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
-  background-color: #373737;
+  background-color: var(--main-fg-color);
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -742,7 +785,7 @@ body.offcanvas {
   height: 6px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #262626;
+  background: var(--main-bg-color);
   overflow: visible; }
 
 .progress-bar {
@@ -827,7 +870,7 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #262626;
+    background: var(--main-bg-color);
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1283,7 +1326,7 @@ body.offcanvas {
   box-shadow: none;
   background: transparent;
   border: transparent;
-  background: #262626;
+  background: var(--main-bg-color);
   height: 54px;
   font-size: 16px;
   font-weight: 400;
