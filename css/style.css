@@ -529,7 +529,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #262626;
+  background: #ffffff;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -561,7 +561,7 @@ body.offcanvas {
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
-    color: #fff; }
+    color: #262626; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: #ec5453; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
@@ -578,7 +578,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #262626;
+  background: #373737;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -593,7 +593,7 @@ body.offcanvas {
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent #f2f3f7 transparent transparent;
+  border-color: transparent #373737 transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
@@ -620,6 +620,7 @@ body.offcanvas {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
+  background-color: #373737;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
