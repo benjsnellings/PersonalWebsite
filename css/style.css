@@ -116,8 +116,9 @@ figure {
     -ms-border-radius: 50%;
     border-radius: 50%; }
   #colorlib-aside .email {
-    display: block;
-    font-size: 12px;}
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 15px;}
   #colorlib-aside .number {
     display: block;
     margin-bottom: 2em;
@@ -155,7 +156,7 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: var(--main-tx-color);
           text-decoration: none;
           position: relative;
           padding: 10px 0;
