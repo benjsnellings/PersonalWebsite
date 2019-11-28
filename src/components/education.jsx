@@ -1,5 +1,11 @@
 import React, {Component} from 'react'
-import {MarylandEducation, AmazonEducation, EagleScoutTraining, ReverseEngineeringTraining} from './content'
+import {
+  MarylandCeEducation,
+  MarylandEntreEducation,
+  AmazonTraining,
+  EagleScoutTraining,
+  ReverseEngineeringTraining
+} from './content'
 
 export default class Education extends Component {
   render() {
@@ -19,8 +25,8 @@ export default class Education extends Component {
             <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
               <div className="fancy-collapse-panel">
                 <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <MarylandEducation/>
-                  <AmazonEducation/>
+                  <MarylandCeEducation/>
+                  <MarylandEntreEducation/>
                 </div>
               </div>
             </div>
@@ -38,6 +44,7 @@ export default class Education extends Component {
             <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
               <div className="fancy-collapse-panel">
                 <div className="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                  <AmazonTraining/>
                   <EagleScoutTraining/>
                   <ReverseEngineeringTraining/>
                 </div>

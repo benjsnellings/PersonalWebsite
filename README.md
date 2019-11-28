@@ -1,3 +1,14 @@
+# Things to get added
+
+
+
+* Volunteer list
+* Add personal hobbies to things im good at
+* Actually fill out the text
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

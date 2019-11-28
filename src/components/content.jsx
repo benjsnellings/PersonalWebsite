@@ -66,7 +66,7 @@ class CollegeTimeline extends Component {
 
 export {PrimeAirTimeline, AlexaTimeline, CyberpointTimeline, CollegeTimeline};
 
-class MarylandEducation extends Component {
+class MarylandCeEducation extends Component {
   render() {
     return (
       <div className="panel panel-default">
@@ -88,13 +88,36 @@ class MarylandEducation extends Component {
   }
 }
 
-class AmazonEducation extends Component {
+class MarylandEntreEducation extends Component {
+  render() {
+    return (
+      <div className="panel panel-default">
+        <div className="panel-heading" role="tab" id="headingFive">
+          <h4 className="panel-title">
+            <a className="collapsedPanelFive collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
+               aria-expanded="false" aria-controls="collapseFive"> Hinman CEO: Technology Entrepreneurship
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFive" className="panel-collapse collapse" role="tabpanel"
+             aria-labelledby="headingFive">
+          <div className="panel-body">
+            <p>Got a bunch of training. Its not all that useful but it looks good.</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+
+class AmazonTraining extends Component {
   render() {
     return (
       <div className="panel panel-default">
         <div className="panel-heading" role="tab" id="headingTwo">
           <h4 className="panel-title">
-            <a className="collapsedPanelTwo collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+            <a className="collapsedPanelTwo collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"
                aria-expanded="false" aria-controls="collapseTwo">Amazon Training
             </a>
           </h4>
@@ -154,5 +177,5 @@ class ReverseEngineeringTraining extends Component {
   }
 }
 
-export {MarylandEducation, AmazonEducation, EagleScoutTraining, ReverseEngineeringTraining};
+export {MarylandCeEducation, MarylandEntreEducation, AmazonTraining, EagleScoutTraining, ReverseEngineeringTraining};
 
