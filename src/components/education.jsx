@@ -13,7 +13,6 @@ export default class Education extends Component {
       <section className="colorlib-education" data-section="education">
         <div className="colorlib-narrow-content">
 
-
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated"
                  data-animate-effect="fadeInLeft">
@@ -31,7 +30,6 @@ export default class Education extends Component {
               </div>
             </div>
           </div>
-
 
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated"
