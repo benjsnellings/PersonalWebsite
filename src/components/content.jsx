@@ -73,14 +73,24 @@ class MarylandCeEducation extends Component {
         <div className="panel-heading" role="tab" id="headingOne">
           <h4 className="panel-title">
             <a className="collapsedPanelOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-               aria-expanded="true" aria-controls="collapseOne">B.S. in Computer Engineering
+               aria-expanded="true" aria-controls="collapseOne">B.S. in Computer Engineering - University of Maryland, College Park
             </a>
           </h4>
         </div>
         <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel"
              aria-labelledby="headingOne">
           <div className="panel-body">
-            <p>Got the degree. But damn it sucked.</p>
+            <p>A degree in Computer Engineering from the University of Maryland is a dual degree.
+            I learned both Computer Science and Electric Engineering. </p>
+            <h3>These are a few classes that i took</h3>
+            <ul>
+              <li>Operating Systems</li>
+              <li>Compilers</li>
+              <li>Algorithms</li>
+              <li>Autonomous Robotics</li>
+              <li>Advanced Control Theory</li>
+              <li>Embedded Electronics Design</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -95,14 +105,20 @@ class MarylandEntreEducation extends Component {
         <div className="panel-heading" role="tab" id="headingFive">
           <h4 className="panel-title">
             <a className="collapsedPanelFive collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
-               aria-expanded="false" aria-controls="collapseFive"> Hinman CEO: Technology Entrepreneurship
+               aria-expanded="false" aria-controls="collapseFive"> Hinman CEO: Technology Entrepreneurship Minor - University of Maryland, College Park
             </a>
           </h4>
         </div>
         <div id="collapseFive" className="panel-collapse collapse" role="tabpanel"
              aria-labelledby="headingFive">
           <div className="panel-body">
-            <p>Got a bunch of training. Its not all that useful but it looks good.</p>
+            <p>As the nation’s first living-learning entrepreneurship program,
+              Hinman CEOs is a groundbreaking initiative placing entrepreneurial
+              students from all technical and non-technical academic disciplines in a unique community.
+              Students live together, learn about entrepreneurship, and can launch new ventures.
+              The mission of Hinman CEOs is to foster an entrepreneurial spirit, create a sense of community and cooperation,
+              and develop ethical leaders.</p>
+            <a href="http://www.hinmanceos.umd.edu/">About Hinman CEOs program</a>
           </div>
         </div>
       </div>
@@ -125,7 +141,12 @@ class AmazonTraining extends Component {
         <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel"
              aria-labelledby="headingTwo">
           <div className="panel-body">
-            <p>Got a bunch of training. Its not all that useful but it looks good.</p>
+            <h3>I have completed a lot of trainings during my tenure at amazon.</h3>
+            <ul>
+              <li>Interview Training</li>
+              <li>AWS Solutions Architect</li>
+              <li>DevOps Training</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -140,14 +161,20 @@ class EagleScoutTraining extends Component {
         <div className="panel-heading" role="tab" id="headingThree">
           <h4 className="panel-title">
             <a className="collapsedPanelThree collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"
-               aria-expanded="false" aria-controls="collapseThree">Eagle Scout
+               aria-expanded="false" aria-controls="collapseThree">Eagle Scout - Boy Scouts of America
             </a>
           </h4>
         </div>
         <div id="collapseThree" className="panel-collapse collapse" role="tabpanel"
              aria-labelledby="headingThree">
           <div className="panel-body">
-            <p>Got to play with fire and knives. whats not to love</p>
+            <p>
+              Achieved the rank of Eagle Scout.  Only about 4% of young men who start actually reach the rank.
+              To achieve it I had to complete numerous small, medium, and long range goals and marks.
+              I worked on numerous community projects.  However, the capping project was my own Eagle Scout project
+              which involved leading a number of people, seeking out materials andrefurbishing the interiour of the local youth clubhouse.
+              Scouting was not only a good learning experience and a lot of work, but it was also a job worth doing.
+            </p>
           </div>
         </div>
       </div>
@@ -169,7 +196,14 @@ class ReverseEngineeringTraining extends Component {
         <div id="collapseFour" className="panel-collapse collapse" role="tabpanel"
              aria-labelledby="headingFour">
           <div className="panel-body">
-            <p>Did some small hacking with IDA PRO =)</p>
+            <p>
+              I have used IDA Pro to disassemble and analyze code used by various companies. The purpose of analyzing
+              the code is to find vulnerabilities before bad actors have a chance to.
+            </p>
+            <p>
+              IDA Pro is a feature rich, cross-platform, multi-processor disassembler and debugger developed by Hex-Rays,
+              a private organization independent of governmental agencies and stock market pressure.
+            </p>
           </div>
         </div>
       </div>
