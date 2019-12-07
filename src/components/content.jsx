@@ -72,12 +72,12 @@ class MarylandCeEducation extends Component {
       <div className="panel panel-default">
         <div className="panel-heading" role="tab" id="headingOne">
           <h4 className="panel-title">
-            <a className="collapsedPanelOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-               aria-expanded="true" aria-controls="collapseOne">B.S. in Computer Engineering - University of Maryland, College Park
+            <a className="collapsedPanelOne collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+               aria-expanded="false" aria-controls="collapseOne">B.S. in Computer Engineering - University of Maryland, College Park
             </a>
           </h4>
         </div>
-        <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel"
+        <div id="collapseOne" className="panel-collapse collapse" role="tabpanel"
              aria-labelledby="headingOne">
           <div className="panel-body">
             <p>A degree in Computer Engineering from the University of Maryland is a dual degree.

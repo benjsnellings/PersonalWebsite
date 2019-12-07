@@ -16,7 +16,7 @@ export default class Education extends Component {
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated"
                  data-animate-effect="fadeInLeft">
-              <span className="heading-meta">Education</span>
+              {/*<span className="heading-meta">Education</span>*/}
               <h2 className="colorlib-heading animate-box fadeInUp animated">Education</h2>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default class Education extends Component {
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated"
                  data-animate-effect="fadeInLeft">
-              <span className="heading-meta">Education</span>
+              {/*<span className="heading-meta">Education</span>*/}
               <h2 className="colorlib-heading animate-box fadeInUp animated">Training</h2>
             </div>
           </div>
