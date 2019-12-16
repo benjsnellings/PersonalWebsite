@@ -22,6 +22,7 @@
   --maryland-gold-color: #ffd520;
   --cyberpoint-orange-color: #ff6418;
   --eagle-scout-blue-color: #003F87;
+  scrollbar-color: var(--main-fg-color) var(--main-bg-color);
 }
 
 body {
